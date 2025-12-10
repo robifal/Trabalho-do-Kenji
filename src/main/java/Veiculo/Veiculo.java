@@ -20,9 +20,9 @@ public class Veiculo {
     
     public Multa criarMulta(String infracao, String tipoMulta, String observacao, 
                             int gravePontos, String dataVencimento, double valorMulta, 
-                            String dataAtualização, int motoristasReceberam) {
+                            String dataAtualizacao, int motoristasReceberam) {
         return new Multa(infracao, tipoMulta, observacao, gravePontos, dataVencimento, 
-                        valorMulta, dataAtualização, motoristasReceberam, this);
+                        valorMulta, dataAtualizacao, motoristasReceberam, this);
     }
     
     public String getPlaca() {
