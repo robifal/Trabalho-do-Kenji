@@ -9,12 +9,12 @@ public class Multa {
     private int gravePontosDefesa;
     private String dataVencimento;
     private double valorMulta;
-    private String dataAtualização;
+    private String dataAtualizacao;
     private int motoristasReceberam;
     private Veiculo veiculo;
     
     public Multa(String infracao, String tipoMulta, String observacao, int gravePontosDefesa,
-                 String dataVencimento, double valorMulta, String dataAtualização, 
+                 String dataVencimento, double valorMulta, String dataAtualizacao, 
                  int motoristasReceberam, Veiculo veiculo) {
         this.infracao = infracao;
         this.tipoMulta = tipoMulta;
@@ -22,7 +22,7 @@ public class Multa {
         this.gravePontosDefesa = gravePontosDefesa;
         this.dataVencimento = dataVencimento;
         this.valorMulta = valorMulta;
-        this.dataAtualização = dataAtualização;
+        this.dataAtualizacao = dataAtualizacao;
         this.motoristasReceberam = motoristasReceberam;
         this.veiculo = veiculo;
     }
@@ -51,8 +51,8 @@ public class Multa {
         return valorMulta;
     }
     
-    public String getDataAtualização() {
-        return dataAtualização;
+    public String getDataAtualizacao() {
+        return dataAtualizacao;
     }
     
     public int getMotoristasReceberam() {
