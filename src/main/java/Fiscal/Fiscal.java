@@ -3,11 +3,11 @@ package Fiscal;
 import Usuario.Usuario;
 
 public class Fiscal extends Usuario {
-    private String guarnição;
+    private String guarnicao;
     
-    public Fiscal(String nome, String matricula, String cpf, String cnh, String dataAdmissao, String guarnição) {
+    public Fiscal(String nome, String matricula, String cpf, String cnh, String dataAdmissao, String guarnicao) {
         super(nome, matricula, cpf, cnh, dataAdmissao);
-        this.guarnição = guarnição;
+        this.guarnicao = guarnicao;
     }
     
     public void realizaMulta() {
@@ -19,6 +19,6 @@ public class Fiscal extends Usuario {
     }
     
     // Getters e Setters
-    public String getGuarnição() { return guarnição; }
-    public void setGuarnição(String guarnição) { this.guarnição = guarnição; }
+    public String getGuarnicao() { return guarnicao; }
+    public void setGuarnição(String guarnicao) { this.guarnicao = guarnicao; }
 }
