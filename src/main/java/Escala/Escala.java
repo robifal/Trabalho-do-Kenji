@@ -1,7 +1,6 @@
 package Escala;
 
 import Fiscal.Fiscal;
-import Operacao.Operacao;
 
 public class Escala {
     private String diaDaSemana;
@@ -23,13 +22,13 @@ public class Escala {
         System.out.println("Escala criada para " + diaDaSemana + " no local: " + localDeFiscalizacao);
     }
     
-    public void controlOperacoes() {
+    public void controlaOperacoes() {
         System.out.println("Controlando operações da escala de " + diaDaSemana);
     }
     
     public Fiscal criaFiscal(String nome, String matricula, String cpf, String cnh, 
-                            String dataAdmissao, String guarnição) {
-        return new Fiscal(nome, matricula, cpf, cnh, dataAdmissao, guarnição);
+                            String dataAdmissao, String guarnicao) {
+        return new Fiscal(nome, matricula, cpf, cnh, dataAdmissao, guarnicao);
     }
     
     // Getters e Setters
