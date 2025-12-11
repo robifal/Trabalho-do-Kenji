@@ -1,7 +1,7 @@
-package com.ifal.si.Models;
+package com.ifal.si.models;
 
-import com.ifal.si.Models.Usuario;
-import com.ifal.si.Models.Fiscal;
+import com.ifal.si.models.Fiscal;
+import com.ifal.si.models.Usuario;
 
 public class Administrativo extends Usuario {
     

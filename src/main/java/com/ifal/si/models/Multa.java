@@ -1,3 +1,4 @@
+package com.ifal.si.models;
 public class Multa {
     private String infracao;
     private String tipoMulta;

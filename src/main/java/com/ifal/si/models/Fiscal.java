@@ -1,4 +1,4 @@
-package com.ifal.si.Models;
+package com.ifal.si.models;
 
 public class Fiscal extends Usuario {
     private String guarnicao;

@@ -1,3 +1,4 @@
+package com.ifal.si.models;
 public class Funcionario {
     private String nome;
     private int idade;

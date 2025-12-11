@@ -1,3 +1,4 @@
+package com.ifal.si.models;
 public class Operacao {
     private String nome;
     private String dataASerExecutada;

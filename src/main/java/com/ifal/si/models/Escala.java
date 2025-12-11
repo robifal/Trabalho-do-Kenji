@@ -1,6 +1,6 @@
-package com.ifal.si.Models;
+package com.ifal.si.models;
 
-import com.ifal.si.Models.Fiscal;
+import com.ifal.si.models.Fiscal;
 
 public class Escala {
     private String diaDaSemana;

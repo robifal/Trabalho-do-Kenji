@@ -1,3 +1,4 @@
+package com.ifal.si.models;
 import java.util.ArrayList;
 import java.util.List;
 
