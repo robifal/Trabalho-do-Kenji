@@ -5,8 +5,7 @@ import Veiculo.Veiculo;
 import Multa.Multa;
 
 public class Main {
-    public static void main(String[] args) {    
-
+    public static void main(String[] args) {
         // Criar permissionário
         Permissionario perm = new Permissionario("Empresa de Taxi Ltda", "12.345.678/0001-90", "ABC1234");
         // perm.adicionarSubmodalidade("Táxi");
@@ -44,6 +43,4 @@ public class Main {
         System.out.println(multa1);
         System.out.println(multa2);
     }
-
-
 }

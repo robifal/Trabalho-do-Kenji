@@ -3,15 +3,15 @@ package Operacao;
 public class Operacao {
     private String nome;
     private String dataASerExecutada;
-    private String guarnição;
+    private String guarnicao;
     private String finalidade;
     private String responsavel;
     
-    public Operacao(String nome, String dataASerExecutada, String guarnição, 
+    public Operacao(String nome, String dataASerExecutada, String guarnicao, 
                     String finalidade, String responsavel) {
         this.nome = nome;
         this.dataASerExecutada = dataASerExecutada;
-        this.guarnição = guarnição;
+        this.guarnicao = guarnicao;
         this.finalidade = finalidade;
         this.responsavel = responsavel;
     }
@@ -25,8 +25,8 @@ public class Operacao {
         this.dataASerExecutada = dataASerExecutada; 
     }
     
-    public String getGuarnição() { return guarnição; }
-    public void setGuarnição(String guarnição) { this.guarnição = guarnição; }
+    public String getGuarnicao() { return guarnicao; }
+    public void setGuarnicao(String guarnicao) { this.guarnicao = guarnicao; }
     
     public String getFinalidade() { return finalidade; }
     public void setFinalidade(String finalidade) { this.finalidade = finalidade; }

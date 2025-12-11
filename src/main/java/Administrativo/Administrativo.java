@@ -13,11 +13,11 @@ public class Administrativo extends Usuario {
         System.out.println("Administrativo " + getNome() + " criou uma nova escala.");
     }
     
-    public void controlOperacoes() {
+    public void controlaOperacoes() {
         System.out.println("Administrativo " + getNome() + " está controlando as operações.");
     }
     
-    public Fiscal criaFiscal(String nome, String matricula, String cpf, String cnh, String dataAdmissao, String guarnição) {
-        return new Fiscal(nome, matricula, cpf, cnh, dataAdmissao, guarnição);
+    public Fiscal criaFiscal(String nome, String matricula, String cpf, String cnh, String dataAdmissao, String guarnicao) {
+        return new Fiscal(nome, matricula, cpf, cnh, dataAdmissao, guarnicao);
     }
 }
