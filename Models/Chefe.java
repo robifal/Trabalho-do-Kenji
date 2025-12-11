@@ -1,10 +1,6 @@
-package Chefe;
-
-import Administrativo.Administrativo;
-
 public class Chefe extends Administrativo {
     private String cargo;
-    
+
     public Chefe(String nome, String matricula, String cpf, String cnh, String dataAdmissao, String cargo) {
         super(nome, matricula, cpf, cnh, dataAdmissao);
         this.cargo = cargo;

@@ -1,6 +1,3 @@
-package Permissionario;
-
-import Veiculo.Veiculo;
 // import java.util.ArrayList;
 // import java.util.List;
 

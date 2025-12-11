@@ -1,7 +1,3 @@
-package Multa;
-
-import Veiculo.Veiculo;
-
 public class Multa {
     private String infracao;
     private String tipoMulta;

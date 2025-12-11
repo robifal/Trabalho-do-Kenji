@@ -1,8 +1,3 @@
-package Veiculo;
-
-import Permissionario.Permissionario;
-import Multa.Multa;
-
 public class Veiculo {
     private String placa;
     private String marca;

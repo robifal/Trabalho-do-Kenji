@@ -1,8 +1,3 @@
-package Administrativo;
-
-import Usuario.Usuario;
-import Fiscal.Fiscal;
-
 public class Administrativo extends Usuario {
     
     public Administrativo(String nome, String matricula, String cpf, String cnh, String dataAdmissao) {

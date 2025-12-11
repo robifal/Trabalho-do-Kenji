@@ -1,7 +1,3 @@
-package Fiscal;
-
-import Usuario.Usuario;
-
 public class Fiscal extends Usuario {
     private String guarnicao;
     

@@ -1,9 +1,3 @@
-package main;
-
-import Permissionario.Permissionario;
-import Veiculo.Veiculo;
-import Multa.Multa;
-
 public class Main {
     public static void main(String[] args) {
         // Criar permissionário

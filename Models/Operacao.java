@@ -1,5 +1,3 @@
-package Operacao;
-
 public class Operacao {
     private String nome;
     private String dataASerExecutada;

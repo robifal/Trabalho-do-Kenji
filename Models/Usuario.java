@@ -1,5 +1,3 @@
-package Usuario;
-
 // public package Usuario;
 
 public class Usuario {

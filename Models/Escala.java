@@ -1,7 +1,3 @@
-package Escala;
-
-import Fiscal.Fiscal;
-
 public class Escala {
     private String diaDaSemana;
     private String veiculo;
