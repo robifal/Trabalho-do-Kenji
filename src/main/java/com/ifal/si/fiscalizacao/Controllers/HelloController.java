@@ -1,4 +1,4 @@
-package com.ifal.si.fiscalizacao.Controllers;
+package com.ifal.si.fiscalizacao.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
