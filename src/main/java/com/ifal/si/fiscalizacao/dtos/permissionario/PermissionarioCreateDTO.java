@@ -1,6 +1,6 @@
 package com.ifal.si.fiscalizacao.dtos.permissionario;
 
-import jakarta.*;
+import jakarta.validation.constraints.NotBlank*;
 
 public class PermissionarioCreateDTO {
 
