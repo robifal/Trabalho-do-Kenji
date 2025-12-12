@@ -6,6 +6,9 @@ import jakarta.persistence.*;
 @Table(name = "funcionarios")
 @PrimaryKeyJoinColumn(name = "usuario_id")
 public class Funcionario extends Usuario {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String setor;
 
     public Funcionario() { super(); }

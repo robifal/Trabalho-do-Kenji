@@ -6,6 +6,9 @@ import jakarta.persistence.*;
 @Table(name = "administrativos")
 @PrimaryKeyJoinColumn(name = "usuario_id")
 public class Administrativo extends Usuario {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     // Campos específicos se necessário
     public Administrativo() { super(); }
 
