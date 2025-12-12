@@ -1,6 +1,5 @@
 package com.ifal.si.fiscalizacao.dtos.veiculo;
 
-import jakarta.*;
 import jakarta.validation.constraints.NotBlank;
 
 public class VeiculoCreateDTO {

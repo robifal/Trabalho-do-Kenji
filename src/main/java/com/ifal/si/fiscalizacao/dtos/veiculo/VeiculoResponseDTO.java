@@ -8,6 +8,9 @@ public class VeiculoResponseDTO {
     private int quantidadeMultas;
 
     // getters e setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
     public String getPlaca() { return placa; }
     public void setPlaca(String placa) { this.placa = placa; }
 
@@ -18,5 +21,5 @@ public class VeiculoResponseDTO {
     public void setSituacao(String situacao) { this.situacao = situacao; }
 
     public int getQuantidadeMultas() { return quantidadeMultas; }
-    public void setQuantidadeMultas(int quantidadeMultas) { this.quantidadeMultas = quantidadeMultas; }
+    public void setQuantidadeMultas(int quantidadeMultas) { this.quantidadeMultas = quantidadeMultas;}
 }
