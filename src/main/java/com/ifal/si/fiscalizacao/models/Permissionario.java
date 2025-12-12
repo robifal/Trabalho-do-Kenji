@@ -14,7 +14,6 @@ public class Permissionario {
     private String nomeRazaoSocial;
     @Column(unique = true)
     private String cpfCnpj;
-    private String crlvne;
     private int quantidadeMultasPendentes;
 
     @OneToMany(mappedBy = "permissionario", cascade = CascadeType.ALL, orphanRemoval = true)
@@ -22,10 +21,9 @@ public class Permissionario {
 
     public Permissionario() {}
 
-    public Permissionario(String nomeRazaoSocial, String cpfCnpj, String crlvne) {
+    public Permissionario(String nomeRazaoSocial, String cpfCnpj) {
         this.nomeRazaoSocial = nomeRazaoSocial;
         this.cpfCnpj = cpfCnpj;
-        this.crlvne = crlvne;
         this.quantidadeMultasPendentes = 0;
     }
 
@@ -35,8 +33,6 @@ public class Permissionario {
     public void setNomeRazaoSocial(String nomeRazaoSocial) { this.nomeRazaoSocial = nomeRazaoSocial; }
     public String getCpfCnpj() { return cpfCnpj; }
     public void setCpfCnpj(String cpfCnpj) { this.cpfCnpj = cpfCnpj; }
-    public String getCrlvne() { return crlvne; }
-    public void setCrlvne(String crlvne) { this.crlvne = crlvne; }
     public int getQuantidadeMultasPendentes() { return quantidadeMultasPendentes; }
     public void setQuantidadeMultasPendentes(int quantidadeMultasPendentes) { this.quantidadeMultasPendentes = quantidadeMultasPendentes; }
     public List<Veiculo> getVeiculos() { return veiculos; }
