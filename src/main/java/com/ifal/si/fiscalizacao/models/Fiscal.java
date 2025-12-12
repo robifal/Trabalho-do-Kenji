@@ -7,6 +7,10 @@ import java.util.List;
 @Table(name = "fiscais")
 @PrimaryKeyJoinColumn(name = "usuario_id")
 public class Fiscal extends Usuario {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
     @ManyToMany(mappedBy = "fiscais")
     private List<Guarnicao> guarnicoes;
 
