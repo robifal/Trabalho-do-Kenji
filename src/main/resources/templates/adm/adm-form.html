@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${administrativo.id != null ? 'Editar Administrativo' : 'Novo Administrativo'}"></title>
+</head>
+<body>
+
+<h1 th:text="${administrativo.id != null ? 'Editar Administrativo' : 'Novo Administrativo'}"></h1>
+
+<form th:action="@{${administrativo.id != null} ? '/administrativo/' + ${administrativo.id} : '/administrativo'}"
+      th:object="${administrativo}" method="post">
+
+    <label>Nome:</label>
+    <input type="text" th:field="*{nome}" />
+    <br><br>
+
+    <button type="submit">Salvar</button>
+    <a href="/administrativo">Cancelar</a>
+
+</form>
+
+</body>
+</html>

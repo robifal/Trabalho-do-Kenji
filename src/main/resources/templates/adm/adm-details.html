@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes do Administrativo</title>
+</head>
+<body>
+
+<h1>Detalhes do Administrativo</h1>
+
+<p><strong>ID:</strong> <span th:text="${administrativo.id}"></span></p>
+<p><strong>Nome:</strong> <span th:text="${administrativo.nome}"></span></p>
+
+<a href="/administrativo">Voltar</a> |
+<a th:href="@{'/administrativo/editar/' + ${administrativo.id}}">Editar</a>
+
+</body>
+</html>

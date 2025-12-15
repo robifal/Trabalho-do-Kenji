@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrativos - Lista</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<h1>Administrativos</h1>
+
+<a href="/administrativo/novo">➕ Novo Administrativo</a>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Ações</th>
+    </tr>
+
+    <tr th:each="adm : ${administrativos}">
+        <td th:text="${adm.id}"></td>
+        <td th:text="${adm.nome}"></td>
+        <td>
+            <a th:href="@{'/administrativo/' + ${adm.id}}">Ver</a> |
+            <a th:href="@{'/administrativo/editar/' + ${adm.id}}">Editar</a> |
+            <a th:href="@{'/administrativo/excluir/' + ${adm.id}}"
+               onclick="return confirm('Confirma exclusão?')">Excluir</a>
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>

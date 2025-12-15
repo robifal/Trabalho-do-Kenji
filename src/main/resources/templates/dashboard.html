@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Fiscalização - Dashboard</title>
+    <style>
+        body { font-family: Arial; margin: 0; padding: 0; background: #f2f2f2;}
+        header { background: #006611; color: white; padding: 20px; text-align: center; }
+        .container { width: 90%; margin: 20px auto; }
+        h2 { color: #006611; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #ccc;
+            transition: 0.2s;
+        }
+        .card:hover {
+            background: #eaeaea;
+            cursor: pointer;
+        }
+        a { text-decoration: none; color: inherit; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sinal Verde</h1>
+    <p>Dashboard Principal</p>
+</header>
+
+<div class="container">
+    <h2>Cadastros e Operações</h2>
+
+    <div class="grid">
+        <a th:href="@{/usuarios}">
+            <div class="card">Usuários</div>
+        </a>
+        <a th:href="@{/fiscal}">
+            <div class="card">Fiscais</div>
+        </a>
+        <a th:href="@{/administrativo}">
+            <div class="card">Administrativos</div>
+        </a>
+        <a th:href="@{/chefe}">
+            <div class="card">Chefes</div>
+        </a>
+        <a th:href="@{/guarnicao}">
+            <div class="card">Guarnições</div>
+        </a>
+        <a th:href="@{/veiculo}">
+            <div class="card">Veículos</div>
+        </a>
+        <a th:href="@{/permissionario}">
+            <div class="card">Permissionários</div>
+        </a>
+        <a th:href="@{/operacao}">
+            <div class="card">Operações</div>
+        </a>
+        <a th:href="@{/multa}">
+            <div class="card">Multas</div>
+        </a>
+        <a th:href="@{/escala}">
+            <div class="card">Escalas</div>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

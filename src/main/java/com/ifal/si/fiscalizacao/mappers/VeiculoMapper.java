@@ -1,4 +1,4 @@
-package com.ifal.si.fiscalizacao.mappers;
+/*package com.ifal.si.fiscalizacao.mappers;
 
 import com.ifal.si.fiscalizacao.dtos.veiculo.*;
 import com.ifal.si.fiscalizacao.models.Veiculo;
@@ -14,4 +14,4 @@ public interface VeiculoMapper {
 
     @Mapping(source = "permissionario.id", target = "permissionarioId")
     VeiculoResponseDTO toResponse(Veiculo entity);
-}
+}*/

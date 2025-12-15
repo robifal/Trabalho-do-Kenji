@@ -16,10 +16,11 @@ public class Fiscal extends Usuario {
 
     public Fiscal() { super(); }
 
-    public Fiscal(String login, String senha, String nome, String matricula, String cpf, String cnh, java.time.LocalDate dataAdmissao) {
+    /*public Fiscal(String login, String senha, String nome, String matricula, String cpf, String cnh, java.time.LocalDate dataAdmissao) {
         super(login, senha, nome, matricula, cpf, cnh, dataAdmissao, "FISCAL");
     }
 
     public List<Guarnicao> getGuarnicoes() { return guarnicoes; }
     public void setGuarnicoes(List<Guarnicao> guarnicoes) { this.guarnicoes = guarnicoes; }
+    */
 }
