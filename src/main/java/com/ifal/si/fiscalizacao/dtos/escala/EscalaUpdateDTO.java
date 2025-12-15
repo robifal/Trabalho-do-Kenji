@@ -21,6 +21,6 @@ public class EscalaUpdateDTO {
     public String getMatricula() { return matricula; }
     public void setMatricula(String matricula) { this.matricula = matricula; }
 
-    public String getDataAdmissao() { return dataAdmissao; }
-    public void setDataAdmissao(String dataAdmissao) { this.dataAdmissao = dataAdmissao; }
+    public LocalDate getDataAdmissao() { return this.dataAdmissao; }
+    public void setDataAdmissao(LocalDate dataAdmissao) { this.dataAdmissao = dataAdmissao; }
 }
