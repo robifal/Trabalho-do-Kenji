@@ -2,11 +2,11 @@
 
 Sistema completo para gerenciamento de fiscalização, infrações e multas de trânsito, desenvolvido para órgãos municipais de fiscalização.
 
-## 📋 Sobre o Sistema
+## Sobre o Sistema
 
 O sistema oferece uma solução integrada para o controle de operações de fiscalização de trânsito, desde o planejamento das escalas até a emissão e acompanhamento de multas. Permite gestão completa de equipes, veículos fiscalizados e infrações registradas.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ### Gestão de Usuários
 - Cadastro de usuários com autenticação (login/senha)
@@ -106,14 +106,14 @@ Registro completo de infrações com:
 - Gestão de guarnições e escalas
 - Administração completa do sistema
 
-## 🔐 Segurança
+##Segurança
 
 - Autenticação obrigatória por login e senha
 - Validação de CPF e CNH
 - Controle de acesso baseado em perfis
 - Rastreabilidade de todas as operações (fiscais responsáveis registrados)
 
-## 📊 Relatórios e Consultas
+## Relatórios e Consultas
 
 O sistema permite:
 - Visualização de escalas de trabalho
@@ -122,7 +122,7 @@ O sistema permite:
 - Acompanhamento de guarnições
 - Relatórios de fiscalização por período
 
-## 🎯 Casos de Uso Principais
+## Casos de Uso Principais
 
 1. **Planejamento de Fiscalização**: Administrativo cria escalas, define locais, horários e aloca fiscais
 2. **Execução de Operação**: Fiscal realiza ronda conforme escala e registra infrações
@@ -130,7 +130,7 @@ O sistema permite:
 4. **Acompanhamento**: Proprietário ou motorista consulta multas e prazos
 5. **Gestão Administrativa**: Controle geral de operações, equipes e resultados
 
-## 📝 Observações Importantes
+##  Observações Importantes
 
 - Uma guarnição pode ter vários carros mais
 - Um veículo pode receber múltiplas multas
@@ -138,7 +138,7 @@ O sistema permite:
 - O sistema mantém histórico completo de todas as ações
 - Prazos de defesa são controlados automaticamente
 
-## 🔄 Fluxo do Sistema
+##  Fluxo do Sistema
 
 ```
 Planejamento (Escala) → Operação → Fiscalização → Registro de Multa → Notificação → Acompanhamento

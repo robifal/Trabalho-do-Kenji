@@ -1,4 +1,4 @@
-package com.ifal.si.fiscalizacao.controllers;
+package com.ifal.si.fiscalizacao.Controllers;
 
 import com.ifal.si.fiscalizacao.models.Usuario;
 import com.ifal.si.fiscalizacao.services.UsuarioService;

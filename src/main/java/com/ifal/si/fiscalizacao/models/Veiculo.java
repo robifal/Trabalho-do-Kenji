@@ -16,6 +16,7 @@ public class Veiculo {
     private String marca;
     private String situacao;
     private int quantidadeMultas;
+    private String crvlne;
 
     @ManyToOne
     @JoinColumn(name = "permissionario_id")
@@ -44,6 +45,8 @@ public class Veiculo {
     public void setSituacao(String situacao) { this.situacao = situacao; }
     public int getQuantidadeMultas() { return quantidadeMultas; }
     public void setQuantidadeMultas(int quantidadeMultas) { this.quantidadeMultas = quantidadeMultas; }
+    public String getCrlvne(){return crvlne;}
+    public void setCrlv(String crlvne){this.crvlne = crlvne;}
     public Permissionario getPermissionario() { return permissionario; }
     public void setPermissionario(Permissionario permissionario) { this.permissionario = permissionario; }
     public List<Multa> getMultas() { return multas; }
