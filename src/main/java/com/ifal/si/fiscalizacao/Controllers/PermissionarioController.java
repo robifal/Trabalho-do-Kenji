@@ -1,4 +1,4 @@
-package com.ifal.si.fiscalizacao.controllers;
+package com.ifal.si.fiscalizacao.Controllers;
 
 import com.ifal.si.fiscalizacao.models.Permissionario;
 import com.ifal.si.fiscalizacao.services.PermissionarioService;

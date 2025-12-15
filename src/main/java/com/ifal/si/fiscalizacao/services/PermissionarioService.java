@@ -28,7 +28,6 @@ public class PermissionarioService {
 
         atual.setNomeRazaoSocial(p.getNomeRazaoSocial());
         atual.setCpfCnpj(p.getCpfCnpj());
-        atual.setCrlvne(p.getCrlvne());
         atual.setQuantidadeMultasPendentes(p.getQuantidadeMultasPendentes());
 
         return repo.save(atual);

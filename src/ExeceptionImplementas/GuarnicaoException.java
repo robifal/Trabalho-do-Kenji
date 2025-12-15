@@ -2,7 +2,7 @@ package Guarnicao;
 
 import java.util.ArrayList;
 import java.util.List;
-import Excecoes.CampoVazioException;
+import exception.CampoVazioException;
 import Excecoes.GuarnicaoException;
 
 public class GuarnicaoException {
